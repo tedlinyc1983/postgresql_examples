@@ -16,4 +16,7 @@ template1=# ALTER USER postgres with encrypted password ‘yourpassword’;
 
 \q
 
+vim ~/.psql_history
 
+ALTER USER postgres WITH PASSWORD ' <***password***> ';
+ 
