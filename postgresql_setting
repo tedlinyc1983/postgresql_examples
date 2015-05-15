@@ -36,5 +36,7 @@ CREATE TABLE weather (
 \l
 \dt
 
+DROP TABLE weather ;
+
 
 
