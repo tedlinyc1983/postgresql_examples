@@ -19,4 +19,22 @@ template1=# ALTER USER postgres with encrypted password ‘yourpassword’;
 vim ~/.psql_history
 
 ALTER USER postgres WITH PASSWORD ' <***password***> ';
- 
+
+
+create database test;
+
+CREATE TABLE weather (
+    city            varchar(80),
+    temp_lo         int,           -- 最低氣溫
+    temp_hi         int,           -- 最高氣溫
+    prcp            real,          -- 降水量
+    date            date
+);
+
+\d
+\di
+\l
+\dt
+
+
+
